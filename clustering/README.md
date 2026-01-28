@@ -7,7 +7,7 @@ The objective is to automatically discover and group different physical activiti
 
 The study compares several clustering algorithms, including both classical methods and techniques specifically designed for time series data, in order to analyze their ability to recover meaningful activity patterns.
 
-🎯 Objectives
+# 🎯 Objectives
 
 Apply unsupervised learning to multivariate time series data
 
@@ -17,7 +17,7 @@ Evaluate clustering quality using external metrics
 
 Understand the limitations of classical clustering methods on temporal data
 
-📂 Dataset
+# 📂 Dataset
 
 Human Activity Recognition data from smartphone sensors
 
@@ -39,11 +39,11 @@ Data is segmented into time windows and represented as time series
 
 ⚠️ Ground-truth labels are used only for evaluation, not for training.
 
-🧠 Methods Used
+# 🧠 Methods Used
 
 Four clustering techniques were applied:
 
-1️⃣ K-Means
+## 1️⃣ K-Means
 
 Classical clustering algorithm
 
@@ -51,7 +51,7 @@ Uses Euclidean distance
 
 Performs poorly on time series due to lack of temporal alignment
 
-2️⃣ DBSCAN
+## 2️⃣ DBSCAN
 
 Density-based clustering
 
@@ -59,7 +59,7 @@ Sensitive to parameters (eps, minPts)
 
 Struggles to capture the structure of time series data
 
-3️⃣ K-Shape
+## 3️⃣ K-Shape
 
 Time-series-specific clustering method
 
@@ -69,7 +69,7 @@ Aligns and normalizes time series before comparison
 
 Performs well on dynamic activities
 
-4️⃣ DBA-KMeans
+## 4️⃣ DBA-KMeans
 
 Combines Dynamic Time Warping (DTW) with DTW Barycenter Averaging (DBA)
 
@@ -87,7 +87,7 @@ Measures the similarity between predicted clusters and true activity labels.
 Silhouette Score
 Evaluates cluster separation (used mainly for K-Means).
 
-🏆 Results Summary
+# 🏆 Results Summary
 Method	ARI Score	Observations
 K-Means	0.405	Poor separation, strong confusion between static activities
 DBSCAN	0.148	Many incoherent clusters, not adapted to raw time series
@@ -96,7 +96,7 @@ DBA-KMeans	0.874	Excellent clustering, very strong agreement with true activitie
 
 👉 DBA-KMeans clearly outperforms the other methods.
 
-🧠 Key Insights
+# 🧠 Key Insights
 
 Classical clustering methods based on Euclidean distance are not suitable for time series data
 
@@ -106,7 +106,7 @@ Time-series-specific methods (DTW, K-Shape) significantly improve clustering qua
 
 Dynamic activities are easier to distinguish than static postures
 
-📓 Project Structure
+# 📓 Project Structure
 clustering/
 ├── README.md
 ├── Projet_clustering_Anis_DELLIDJ.ipynb
@@ -130,13 +130,13 @@ Results depend on distance choice and clustering assumptions
 
 DBSCAN is highly sensitive to parameter tuning
 
-🧑‍🎓 Author
+# 🧑‍🎓 Author
 
 Anis Dellidj
 Master 2 – Machine Learning for Data Science
 Unsupervised Learning & Time Series Analysis Project
 
-💡 Possible Improvements
+# 💡 Possible Improvements
 
 Multivariate DTW
 
