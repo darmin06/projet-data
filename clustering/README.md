@@ -1,5 +1,5 @@
 # Clustering
-#📊 Human Activity Recognition using Time Series Clustering
+# 📊 Human Activity Recognition using Time Series Clustering
 📌 Project Overview
 
 This project focuses on unsupervised human activity recognition using time series data collected from smartphone inertial sensors.
