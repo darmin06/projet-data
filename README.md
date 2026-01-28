@@ -1,5 +1,3 @@
-# projet-data
-License
 🔍 LLMRec Replication – Augmenting Recommender Systems with LLMs
 This repository contains the academic replication of LLMRec, a method combining graph-based recommender systems with Large Language Models (LLMs) to improve performance on sparse datasets.
 
