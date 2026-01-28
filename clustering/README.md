@@ -106,24 +106,9 @@ Time-series-specific methods (DTW, K-Shape) significantly improve clustering qua
 
 Dynamic activities are easier to distinguish than static postures
 
-# 📓 Project Structure
-
-clustering/
-├── README.md
-├── Projet_clustering_Anis_DELLIDJ.ipynb
-└── Report.pdf
-
-▶️ How to Run
-
-Open the Jupyter notebook:
-
-jupyter notebook
 
 
-Run Projet_clustering_Anis_DELLIDJ.ipynb step by step
-(all experiments and visualizations are included)
-
-⚠️ Limitations
+# ⚠️ Limitations
 
 Static postures (sitting vs laying) remain difficult to separate
 
