@@ -107,6 +107,7 @@ Time-series-specific methods (DTW, K-Shape) significantly improve clustering qua
 Dynamic activities are easier to distinguish than static postures
 
 # 📓 Project Structure
+
 clustering/
 ├── README.md
 ├── Projet_clustering_Anis_DELLIDJ.ipynb
